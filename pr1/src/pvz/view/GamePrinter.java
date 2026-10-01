@@ -4,7 +4,6 @@ import static pvz.view.Messages.PROMPT;
 import static pvz.view.Messages.debug;
 import static pvz.view.Messages.error;
 import static utils.StringUtils.*;
-
 import pvz.logic.Game;
 import utils.Position;
 import utils.StringUtils;

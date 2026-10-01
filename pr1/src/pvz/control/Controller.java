@@ -15,7 +15,7 @@ import pvz.view.Messages;
  * state of its own; the source of truth is always {@link Game}.
  */
 public class Controller {
-
+    private int Cycle=0;
 	private final Game game;
 	private final GameView view;
 
@@ -30,5 +30,7 @@ public class Controller {
 	public void run() {
 		// TODO fill your code
 	}
+	
 
 }
+

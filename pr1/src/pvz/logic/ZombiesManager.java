@@ -5,6 +5,7 @@ import java.util.Random;
 import pvz.control.Level;
 import pvz.logic.gameobjects.Zombie;
 import pvz.logic.gameobjects.ZombieList;
+import pvz.control.Level;
 
 /**
  * Manages the full lifecycle of zombies for a game session.
@@ -31,7 +32,7 @@ public class ZombiesManager {
 		this.game = game;
 		this.level = level;
 		this.rand = rand;
-		this.remainingZombies = level.getNumberOfZombies();
+		this.remainingZombies = level.getnumberOfZombies;
 		this.zombies = new ZombieList();
 	}
 

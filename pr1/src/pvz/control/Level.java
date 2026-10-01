@@ -9,7 +9,9 @@ package pvz.control;
  * a game.
  */
 public enum Level {
-
+	EASY(3,0.1), MEDIUM(5,0.2), INSANE(10, 0.3);	
+	
+		
 	// TODO fill your code
 
 	private int numberOfZombies;
@@ -20,7 +22,10 @@ public enum Level {
 		this.numberOfZombies = numberOfZombies;
 		this.zombieFrequency = zombieFrequency;
 	}
-
+	
+	
+	
+	
 	// TODO fill your code
 
 	/**
@@ -56,15 +61,5 @@ public enum Level {
 			levelCount++;
 		}
 		return buffer.toString();
-	}
-
-	int getNumberOfZombies() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	double getZombieFrequency() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 }
