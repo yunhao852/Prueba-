@@ -32,7 +32,12 @@ public class Zombie {
 	public void receivedAttack(int damage) {
 		endurance= endurance-damage;
 	}
-	
+	public void update() {
+		if(!isAlive()) return;
+		
+		
+		
+	}
 	
 	
 
